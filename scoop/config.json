@@ -1,0 +1,8 @@
+{
+  "last_update": "2023-02-04T15:50:49.8795357+08:00",
+  "aria2-max-connection-per-server": "16",
+  "aria2-split": "16",
+  "aria2-min-split-size": "1M",
+  "scoop_repo": "https://github.com/ScoopInstaller/Scoop",
+  "scoop_branch": "master"
+}

@@ -1,0 +1,24 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- clean: ['~','~/.config']
+
+- link:
+    ~/.latexmkrc:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.style.yapf:
+    ~/.clang-format:
+    ~/.cmake-format.py:
+    ~/.config/scoop:
+    ~/.config/wezterm:
+    ~/AppData/Local/clangd/config.yaml: clangd/config.yaml
+    ~/AppData/Roaming/alacritty:
+    ~/Documents\PowerShell\Microsoft.PowerShell_profile.ps1:
+    
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

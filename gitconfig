@@ -1,0 +1,5 @@
+[user]
+	name = aurora528
+	email = aurora528@proton.me
+[core]
+	excludesfile = ~/.gitignore_global

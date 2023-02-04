@@ -1,0 +1,9 @@
+
+Name                    Version                 Source   Updated             Info
+----                    -------                 ------   -------             ----
+7zip                    22.01                   main     2023-01-17 16:48:44 
+aria2                   1.36.0-1                main     2023-01-17 00:23:56 
+mingw-winlibs-llvm-ucrt 12.2.0-15.0.6-10.0.0-r3 versions 2023-01-17 19:22:25 
+potplayer               221215                  extras   2023-01-17 16:43:49 
+rustup                  1.25.1                  main     2023-01-17 18:32:07 
+

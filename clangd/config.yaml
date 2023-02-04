@@ -1,0 +1,19 @@
+CompileFlags:
+  Add: [-Weverything, -Werror, --target=x86_64-w64-windows-gnu]
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      [
+        llvm-*,
+        cert-*,
+        clang-*,
+        bugprone-*,
+        performance-*,
+        bugprone-*,
+        portability-*,
+        modernize-*,
+      ]
+    Remove: modernize-use-trailing-return-type
+    CheckOptions:
+      WarnOnFloatingPointNarrowingConversion: false
